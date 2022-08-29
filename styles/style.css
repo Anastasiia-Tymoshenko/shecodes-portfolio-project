@@ -28,14 +28,25 @@ h1 {
 h2 {
   font-size: 40px;
 }
+
+footer {
+  text-align: center;
+}
+
 .start-section {
   background-color: var(--secondary-color);
   padding: 100px 0;
 }
 
+.start-section h3 {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
 .start-section div {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .main-btn {
@@ -79,6 +90,26 @@ h2 {
   text-align: center;
 }
 
+.email-link {
+  color: var(--main-color);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--text-color);
+}
+
+.icons {
+  text-align: center;
+}
+
+.fa-brands {
+  color: var(--main-color);
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px;
+}
 @media (max-width: 576px) {
   .image-col {
     display: none;
