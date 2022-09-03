@@ -29,6 +29,39 @@ h2 {
   font-size: 40px;
 }
 
+nav {
+  padding: 10px 0;
+}
+
+nav span {
+  font-weight: 700;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 3;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+nav a:hover {
+  color: var(--main-color);
+}
+
+nav a.active {
+  background-color: var(--secondary-color);
+}
+
 footer {
   text-align: center;
 }
@@ -132,7 +165,7 @@ footer {
 
 @media (max-width: 768px) {
   .start-section h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   .image-col {
     display: none;
@@ -142,5 +175,9 @@ footer {
   .about-section h3,
   .about-section p {
     text-align: center;
+  }
+
+  nav span {
+    display: none;
   }
 }
