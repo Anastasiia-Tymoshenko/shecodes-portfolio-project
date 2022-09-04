@@ -180,6 +180,10 @@ footer {
   .start-section h1 {
     font-size: 60px;
   }
+
+  .additional-section h1 {
+    font-size: 48px;
+  }
   .image-col {
     display: none;
   }
