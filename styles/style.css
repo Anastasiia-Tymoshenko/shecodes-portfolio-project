@@ -33,10 +33,6 @@ nav {
   padding: 10px 0;
 }
 
-nav span {
-  font-weight: 700;
-}
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -49,12 +45,14 @@ nav li {
   text-decoration: none;
 }
 
-nav a {
+nav a,
+.logo {
   text-decoration: none;
   color: var(--text-color);
 }
 
-nav a:hover {
+nav a:hover,
+.logo:hover {
   color: var(--main-color);
 }
 
@@ -67,8 +65,7 @@ footer {
   text-align: center;
 }
 
-.start-section,
-.contact {
+.start-section {
   background-color: var(--secondary-color);
   padding: 100px 0;
 }
@@ -86,11 +83,6 @@ footer {
   color: #ffffff;
   padding: 15px 30px;
   text-decoration: none;
-}
-
-.main-btn:hover,
-.content-btn:hover {
-  color: var(--text-color);
 }
 
 .image-col {
@@ -132,22 +124,24 @@ footer {
 
 .about {
   margin-top: 30px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .built {
   opacity: 0.7;
   text-align: center;
+  margin-bottom: 0;
+}
+
+.contact {
+  background-color: var(--secondary-color);
+  padding: 50px 0;
 }
 
 .email-link {
   color: var(--main-color);
   font-size: 24px;
   text-decoration: none;
-}
-
-.email-link:hover {
-  color: var(--text-color);
 }
 
 .icons {
@@ -161,7 +155,20 @@ footer {
   margin: 20px;
 }
 
-.fa-brands:hover {
+.logo {
+  font-weight: 700;
+}
+
+.source {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.main-btn:hover,
+.content-btn:hover,
+.email-link:hover,
+.fa-brands:hover,
+.source:hover {
   color: var(--text-color);
 }
 
@@ -183,7 +190,7 @@ footer {
     text-align: center;
   }
 
-  nav span {
+  .logo {
     display: none;
   }
 }
